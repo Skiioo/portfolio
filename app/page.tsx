@@ -17,7 +17,6 @@ export default function RootLayout({
       <Parcours />
       <Skills />
       <Projets />
-      <div>test</div>
     </>
   );
 }
