@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 import {
   Github,
   Home,
@@ -33,12 +32,6 @@ const items = [
     url: "/",
   },
   {
-    title: "About",
-    id: "About",
-    icon: CircleUserRound,
-    url: "/",
-  },
-  {
     title: "Experiences",
     id: "Experiences",
     icon: Atom,
@@ -59,11 +52,6 @@ const items = [
 ];
 
 const itemsFooter = [
-  {
-    title: "Contact",
-    id: "Search",
-    icon: NotebookTabs,
-  },
   {
     title: "Github",
     id: "Github",

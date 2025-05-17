@@ -9,7 +9,6 @@ import { useRouter } from "next/navigation";
 export default function SiteCulture() {
   const router = useRouter();
 
-  // Fonction pour gérer le défilement vers une section spécifique
   const scrollToSection = (id: string) => {
     const section = document.getElementById(id);
     const scrollableDiv = document.querySelector(".overflow-scroll");
@@ -23,10 +22,9 @@ export default function SiteCulture() {
     }
   };
 
-  // Fonction pour naviguer vers une page et scroller après la navigation
   const handleNavigationAndScroll = async (url: string, id: string) => {
-    await router.push(url, { scroll: false }); // Naviguer vers la page sans scroll automatique
-    setTimeout(() => scrollToSection(id), 100); // Scroller manuellement après un délai
+    await router.push(url, { scroll: false });
+    setTimeout(() => scrollToSection(id), 100);
   };
 
   return (
@@ -35,8 +33,8 @@ export default function SiteCulture() {
         variant="default"
         className="inset-x-0 top-3 left-3"
         onClick={(e) => {
-          e.preventDefault(); // Empêche le comportement par défaut
-          handleNavigationAndScroll("/", "Projets"); // Navigue vers "/" et scrolle vers "Projets"
+          e.preventDefault();
+          handleNavigationAndScroll("/", "Projets");
         }}
       >
         <ArrowLeftFromLine />
