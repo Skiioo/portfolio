@@ -9,14 +9,10 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 
-export function CarouselFoliode() {
+export function CarouselThreeSushi() {
   const picture = [
-    "/img/ScreenProjet/Dashboard_page.png",
-    "/img/ScreenProjet/Landing_page.png",
-    "/img/ScreenProjet/Login_page.png",
-    "/img/ScreenProjet/Project_page.png",
-    "/img/ScreenProjet/Skills_page.png",
-    "/img/ScreenProjet/Template_page.png",
+    "/img/TreeSushi/TreeSushi.png",
+    "/img/TreeSushi/treesushi2.png",
   ];
 
   return (

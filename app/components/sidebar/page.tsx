@@ -33,12 +33,6 @@ const items = [
     url: "/",
   },
   {
-    title: "About",
-    id: "About",
-    icon: CircleUserRound,
-    url: "/",
-  },
-  {
     title: "Experiences",
     id: "Experiences",
     icon: Atom,

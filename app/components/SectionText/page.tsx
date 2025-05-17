@@ -1,3 +1,6 @@
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
+
 export default function SectionText() {
   return (
     <>
@@ -9,6 +12,11 @@ export default function SectionText() {
           développement front-end et back-end. Je suis enthousiaste à l'idée de
           relever de nouveaux défis et de contribuer à des projets innovants.
         </p>
+      </div>
+      <div className="flex justify-center mt-25 text-sidebar-foreground">
+        <Link href="img/CV/CV Merletti Sacha.pdf" target="_blank">
+          <Button className="px-10 text-lg p-7">Mon CV</Button>
+        </Link>
       </div>
     </>
   );
