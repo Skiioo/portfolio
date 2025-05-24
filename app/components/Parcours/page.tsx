@@ -9,11 +9,7 @@ export default function Parcours() {
         <div className="flex justify-center mb-30 mt-25 text-sidebar-foreground">
           <div className="grid grid-cols-1 grid-rows-4 gap-4 mb-30 mt-25 text-sidebar-foreground w-125">
             <div className="w-full h-75 border border-gray-600 rounded-md flex flex-col p-3">
-<<<<<<< HEAD
               <span className="text-xl">2021 - 2022</span> <br />
-=======
-              <span className="text-xl">2022</span> <br />
->>>>>>> e91e69ec6684244fd443248e375da728e9913cc3
               <span className="text-xl">Baccalauréat Technologique</span>
               <span className="text-md">Spécialité gestion finance</span>
               <span className="text-xl"></span>
