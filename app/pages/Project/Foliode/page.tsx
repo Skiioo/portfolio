@@ -2,7 +2,7 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { ArrowLeftFromLine } from "lucide-react";
-import { CarouselFoliode } from "@/app/components/Carousel/page";
+import CarouselFoliode from "@/app/components/Carousel/page";
 import { useRouter } from "next/navigation";
 
 import { Badge } from "@/components/ui/badge";
