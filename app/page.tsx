@@ -6,11 +6,7 @@ import Projets from "./components/Projets/page";
 import Skills from "./components/Skills/page";
 import ContactPage from "./components/Contact/page";
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function Home() {
   return (
     <>
       <TopPage />
