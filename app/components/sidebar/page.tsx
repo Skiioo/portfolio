@@ -66,7 +66,7 @@ const itemsFooter = [
   },
 ];
 
-export function AppSidebar() {
+export default function AppSidebar() {
   const pathname = usePathname();
 
   // Fonction pour gérer le défilement vers une section spécifique
