@@ -9,7 +9,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 
-export function CarouselFoliode() {
+export default function CarouselFoliode() {
   const picture = [
     "/img/ScreenProjet/Dashboard_page.png",
     "/img/ScreenProjet/Landing_page.png",
