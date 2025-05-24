@@ -5,7 +5,11 @@ import Link from "next/link";
 export default function Projets() {
   return (
     <>
+<<<<<<< HEAD
       <div className="mt-110 text-sidebar-foreground ">
+=======
+      <div className="mt-110 text-sidebar-foreground mb-100">
+>>>>>>> e91e69ec6684244fd443248e375da728e9913cc3
         <div id="Projets"></div>
         <h2 className="ml-35 text-4xl mb-50">Projets</h2>
         <div className="grid grid-col-2 grid-row-2 w-fit mx-auto gap-9 ">
