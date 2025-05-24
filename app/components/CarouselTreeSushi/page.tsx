@@ -9,7 +9,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 
-export function CarouselThreeSushi() {
+export default function CarouselThreeSushi() {
   const picture = [
     "/img/TreeSushi/TreeSushi.png",
     "/img/TreeSushi/treesushi2.png",

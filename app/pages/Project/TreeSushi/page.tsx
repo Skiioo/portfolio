@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 
 import { Badge } from "@/components/ui/badge";
 
-import { CarouselThreeSushi } from "@/app/components/CarouselTreeSushi/page";
+import CarouselThreeSushi from "@/app/components/CarouselTreeSushi/page";
 export default function TreeSushi() {
   const router = useRouter();
 
