@@ -47,17 +47,19 @@ export default function TreeSushi() {
         <div id="Foliode"></div>
         <div className="w-200 mx-auto">
           <p className="mb-10 text-md">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
-            nobis ea esse fugiat doloremque labore eveniet facilis quaerat alias
-            nulla. Exercitationem asperiores dolor esse unde quidem, facilis
-            voluptatibus iusto est.
+            Ce projet a pour but de créer un site web de vente de sushis avec un
+            framework front-end et une API fonctionnelle en PHP vanilla. En
+            effet, lors de ce projet, nous étions en groupe et je me suis occupé
+            de la partie back-end. C’est grâce à ce projet que j’ai acquis les
+            compétences nécessaires pour créer une API.
           </p>
         </div>
 
         <div className="flex flex-wrap gap-3 inset-x-0  w-fit mb-15 mx-auto">
           <Badge variant="default">Angular</Badge>
           <Badge variant="default">Tailwind</Badge>
-          <Badge variant="default">Tailwind</Badge>
+          <Badge variant="default">Mysql</Badge>
+          <Badge variant="default">PHP</Badge>
         </div>
 
         <CarouselThreeSushi />

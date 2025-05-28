@@ -19,8 +19,9 @@ export default function Projets() {
             </p>
             <div className="absolute flex flex-wrap gap-3 inset-x-0 bottom-3 left-3 w-80">
               <Badge variant="default">Angular</Badge>
-              <Badge variant="default">Three JS</Badge>
               <Badge variant="default">Tailwind</Badge>
+              <Badge variant="default">Three JS</Badge>
+              <Badge variant="default">Blender</Badge>
             </div>
             <Link href="../../pages/Project/3D_Site/">
               <Button
