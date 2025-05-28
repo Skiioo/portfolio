@@ -6,6 +6,8 @@ import { Button } from "@/components/ui/button";
 import { ArrowLeftFromLine } from "lucide-react";
 import { useRouter } from "next/navigation";
 import CarouselThreeJS from "@/app/components/CarouselThreeJS/page";
+import Link from "next/link";
+import { LogIn } from "lucide-react";
 
 export default function SiteCulture() {
   const router = useRouter();
@@ -41,7 +43,13 @@ export default function SiteCulture() {
         <ArrowLeftFromLine />
       </Button>
       <div className="mt-20 text-sidebar-foreground">
-        <h2 className="ml-35 text-3xl mb-25">Site 3D - Peuple Dogon</h2>
+        <h2 className="ml-35 text-3xl mb-10">Site 3D - Peuple Dogon </h2>
+        <Link href="https://sae-402-remifaupinsachamerletti.vercel.app/acceuil">
+          <Button variant="default" className="ml-35 mb-30">
+            <LogIn />
+            Lien vers le site
+          </Button>
+        </Link>
 
         <div id="Foliode"></div>
         <div className="w-200 mx-auto">
