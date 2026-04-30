@@ -43,16 +43,16 @@ export default function SiteCulture() {
         <ArrowLeftFromLine />
       </Button>
       <div className="mt-20 text-sidebar-foreground">
-        <h2 className="ml-35 text-3xl mb-10">Site 3D - Peuple Dogon </h2>
-        <Link href="https://sae-402-remifaupinsachamerletti.vercel.app/acceuil">
-          <Button variant="default" className="ml-35 mb-30">
+        <h2 className="ml-35 text-3xl mb-10 max-sm:ml-0">Site 3D - Peuple Dogon </h2>
+        <Link href="https://sae-402-remifaupinsachamerletti.vercel.app/acceuil" >
+          <Button variant="default" className="ml-35 mb-30 max-sm:ml-0">
             <LogIn />
             Lien vers le site
           </Button>
         </Link>
 
         <div id="Foliode"></div>
-        <div className="w-200 mx-auto">
+        <div className="w-200 mx-auto max-sm:w-full">
           <p className="mb-10 text-md">
             Ce projet consistais à mettre en lumière une culture méconnue. Par
             deux nous avons choisi la culture Dogon, une ethnie du Mali. Nous

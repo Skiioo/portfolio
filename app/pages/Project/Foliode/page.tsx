@@ -41,10 +41,10 @@ export default function Foliode() {
         <ArrowLeftFromLine />
       </Button>
       <div className="mt-20 text-sidebar-foreground">
-        <h2 className="ml-35 text-3xl mb-25">Foliode</h2>
+        <h2 className="ml-35 text-3xl mb-25 max-sm:ml-0">Foliode</h2>
 
         <div id="Foliode"></div>
-        <div className="w-200 mx-auto">
+        <div className="w-200 mx-auto max-sm:w-full">
           <p className="mb-10 text-md">
             Ce projet a pour ambition de permettre à des utilisateurs qui n'ont
             aucune compétences en développement informatique d'avoir un

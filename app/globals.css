@@ -63,6 +63,12 @@
   font-size: var(--text-tiny--font-size);
 }
 
+@media (max-width: 640px) {
+  h1.text-tiny {
+    font-size: 2rem !important; /* text-2xl equivalent pour plus de visibilité */
+  }
+}
+
 body {
   margin: 0;
   padding-top: 9px;

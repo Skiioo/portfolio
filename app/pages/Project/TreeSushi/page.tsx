@@ -42,10 +42,10 @@ export default function TreeSushi() {
         <ArrowLeftFromLine />
       </Button>
       <div className="mt-20 text-sidebar-foreground">
-        <h2 className="ml-35 text-3xl mb-25">Tree Sushi</h2>
+        <h2 className="ml-35 text-3xl mb-25 max-sm:ml-4">Tree Sushi</h2>
 
         <div id="Foliode"></div>
-        <div className="w-200 mx-auto">
+        <div className="w-200 mx-auto max-sm:w-full max-sm:mx-auto ">
           <p className="mb-10 text-md">
             Ce projet a pour but de créer un site web de vente de sushis avec un
             framework front-end et une API fonctionnelle en PHP vanilla. En

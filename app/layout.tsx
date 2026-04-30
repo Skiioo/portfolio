@@ -40,7 +40,7 @@ export default function RootLayout({
           <SidebarProvider>
             <AppSidebar />
 
-            <div className="flex-1 h-[calc(100vh-17px)] bg-[var(--sidebar-background)] border border-gray-600 text-white p-4 rounded-lg">
+            <div className="flex-1 h-[calc(100vh-17px)] bg-[var(--sidebar-background)] border border-gray-600 text-white p-4 rounded-lg w-full max-sm:mx-1  ">
               <div
                 className="overflow-hidden h-[calc(99vh-40px)] overflow-scroll rounded-md"
                 style={{ scrollMarginTop: "6rem" }}

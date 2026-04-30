@@ -39,8 +39,8 @@ export default function CarouselThreJS() {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious />
-          <CarouselNext />
+          <CarouselPrevious className="max-sm:hidden"/>
+          <CarouselNext  className="max-sm:hidden"/>
         </Carousel>
       </div>
     </>
