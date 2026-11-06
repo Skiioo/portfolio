@@ -14,11 +14,16 @@ export default function SectionText() {
           de nouveaux défis et de contribuer à des projets innovants.
         </p>
       </div>
+
+
+      {/*
+
       <div className="flex justify-center mt-25 text-sidebar-foreground">
         <Link href="img/CV/CV_Merletti_Sacha.pdf" target="_blank">
           <Button className="px-10 text-lg p-7">Mon CV</Button>
         </Link>
       </div>
+      */}
     </>
   );
 }
